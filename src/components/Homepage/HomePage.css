@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(146, 87, 242);
+}
+
+.h1 {
+    font-style: italic;
+    color: black;
+}
+
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: stretch;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+li a {
+    display: block;
+    align-items: center;
+    align-self: baseline;
+    padding: 18px 16px;
+    color: #470592;
+   text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+    
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}

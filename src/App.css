@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+  width: 1520px;
+  height: 1000px;
+}
+
+main {
+  background-color: rgb(146, 87, 242);
+  color: black;
+  width: 1520px;
+  height: 1000px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
