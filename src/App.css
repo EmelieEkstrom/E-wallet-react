@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  background-color: rgb(146, 87, 242);
+  background-color: rgb(16, 8, 29);
   color: black;
   width: 1520px;
   height: 1000px;
@@ -17,4 +17,5 @@ h1 {
   margin-top: 10px;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(146, 87, 242);
+    background-color: rgb(230, 185, 113);
 }
 
 .h1 {
@@ -28,7 +28,7 @@ li a {
     align-items: center;
     align-self: baseline;
     padding: 18px 16px;
-    color: #470592;
+    color: rgb(161, 115, 56);
    text-decoration: none;
     
 }

@@ -1,20 +1,20 @@
-import './App.css';
-import { RouterProvider } from 'react-router-dom';
-import router from './router/router';
+import { RouterProvider } from "react-router-dom";
+import router from "./router/router";
+import { createContext, useState } from "react";
+
+export const CardContext = createContext();
 
 function App() {
-   
+  const [cards, setCards] = useState([])
+  
+
   return (
-  
     <main>
-      <h1>Välkommen</h1>
-        
-        <RouterProvider router={ router } />
-          
+      <CardContext.Provider value={{cards, setCards}}>
+        <RouterProvider router={router} />
+      </CardContext.Provider>
     </main>
-  
-  )
+  );
 }
 
- 
-export default App
+export default App;

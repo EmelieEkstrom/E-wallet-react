@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
 import './index.css';
-import { Provider } from 'react-redux';
-import store from './store/store.js';
-
+import App from './App';
 /**
  * Store - Vårat state, det vill spara i Redux
  * Reducer - Själva logiken för att uppdatera vår store
@@ -14,8 +11,6 @@ import store from './store/store.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </React.StrictMode>
-);
+    <App/>
+  </React.StrictMode>,
+)

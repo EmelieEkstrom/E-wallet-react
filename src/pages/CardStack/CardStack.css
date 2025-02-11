@@ -1,0 +1,88 @@
+.mina-kort {
+  visibility: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  
+}
+
+.cards__amount {
+  display: flex;
+  visibility: inherit;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+h2 {
+
+display: flex;
+justify-content: center;
+margin-left: 570px;
+flex-wrap: wrap;
+font-style: italic; 
+text-decoration: underline;
+font-size: 45px;
+
+
+}
+
+
+
+.card-list {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-self: center;
+gap: 20px; /* Added spacing between cards */
+margin: 20px auto;
+
+}
+
+#goBack {
+background-color: rgb(20, 114, 58); /* A vibrant green color */
+color: white;
+width: 150px;
+
+}
+
+button {
+display: flex;
+flex-direction: row;
+align-self: flex-end;
+background-color: rgb(20, 114, 58); /* A vibrant green color */
+color: white;
+width: 150px;
+}
+
+.card-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+margin-left: 540px;
+background-color: rgb(249, 247, 247);
+color: rgb(12, 11, 11);
+width: 513px;
+height: 277px;
+gap: 1px;
+border-radius: 10px;
+border: 10px gray;
+font-style: italic;
+
+}
+
+.card-info {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 580px;
+background-color: rgb(249, 247, 247);
+color: rgb(12, 11, 11);
+width: 513px;
+height: 277px;
+gap: 100px;
+border-radius: 10px;
+
+}
